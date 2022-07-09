@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    transition: 0.8ms;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --para-text-color: #707070;
+    --h-text-color: #121212;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    ;
+}
+
+h1 {
+    color: var(--h-text-color);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+p {
+    color: var(--para-text-color);
+
+}
+
+.hero-section {
+    background-image: linear-gradient(90deg, rgba(16, 16, 16, 0.795), rgba(0, 0, 0, 0.256)), url(/images/hero-banner.jpeg);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section h1 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 16px;
+}
+
+.hero-tex {
+    width: 526px;
+}
+
+button {
+    background-color: #EF233C;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.lives-first-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    align-items: center;
+    background-color: white;
+}
+
+.left-box {
+    vertical-align: middle;
+    padding: 83px;
+    width: 500px;
+}
+
+.right-box {
+    display: flex;
+    position: relative;
+}
+
+.right-box img {
+    position: relative;
+}
+
+.right-box .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* Second  Sectiion Style */
+
+.lives-second-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+.first-left-box {
+    position: relative;
+    padding: 83px;
+}
+
+.second-right-box {
+    vertical-align: middle;
+    width: 500px;
+
+}
