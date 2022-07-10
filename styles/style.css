@@ -226,7 +226,7 @@ button {
 
 .text_block p {
     padding-bottom: 20px;
-    padding-top: 0px;
+    padding-top: 10px;
 }
 
 .text_block a {
@@ -239,20 +239,19 @@ footer {
     justify-content: center;
     margin: auto;
     text-align: center;
-    padding: 40px 0px;
+    padding: 40px 40px;
 
 }
 
-.footer_section {
-    height: 177px;
+/* .footer_section {
     position: absolute;
     justify-content: center;
     vertical-align: middle;
-    margin: 0;
+    /margin: 0;
     left: 0;
     right: 0%;
     margin: auto;
-}
+} */
 
 footer h1 {
     color: #EF233C;
